@@ -1,0 +1,123 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  background: black;
+  height: 49px;
+  border-bottom: 1px solid seashell;
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  height: 50px;
+}
+
+header .navigation {
+  color: white;
+  height: 50px;
+}
+
+header ul li {
+  display: inline;
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+  padding-top: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statement {
+  background-color: black;
+  flex-grow: 1;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+#locations .flexcontainer {
+  justify-content: space-around;
+
+}
+
+#locations .flexcontainer .location {
+  display: block;
+  background-color: black;
+}
+
+#locations h2 {
+  padding: 15px;
+}
+
+#featured {
+  width: 1000px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#featured .flexcontainer .item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+#featured .flexcontainer .item {
+  align-items: flex-start;
+}
+
+.flexcontainer {
+  display: flex;
+  margin: 0px auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+}
+
+#locations .flexcontainer .location {
+  opacity: 1;
+}
+
+#contact {
+  height: 200px;
+}
+
+footer p {
+  text-align: left;
+  padding: 20px;
+}
+
+#mission, #featured, #locations {
+  margin: 0px auto;
+}
